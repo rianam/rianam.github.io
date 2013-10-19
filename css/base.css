@@ -1,25 +1,64 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #ff4a00;
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 22px;
-    color: #0021a5;
+body {
+    font-size: 16px;
+    background-color: #E5FFFF;
+    font-family: arial, sans-serif; 
 }
 
 p {
-    font-size: 16px;
-    line-height: 22px;
+    margin-bottom: 16px;
+}
+    
+header {
+    background-color: #000000;
+    color: #ffffff; 
+    height: 60px;
+    font-family: arial, sans-serif; 
+    
 }
 
-img {
-    border: 5px solid #cccccc;
-    margin: 0 5% 0 5%;
-    padding: 1%; /* TRouBLe */
-    width:90%;
+header h1 {
+    float: left;
+    font-size: 22px;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+    border: 3px;
+    padding: 10px;
+}
+
+header nav {
+        margin-top: 20px; 
+}
+
+header a {
+    color: #aaaaaa;
+    text-decoration: none;
+    
+}
+
+header a:link {
+   
+}
+
+header a:visited {}
+
+header a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+header a:active {
+    text-decoration: underline;
+    
+}
+
+headaer a:focus {}
+        
+article {
+    clear: both;
+    
 }
