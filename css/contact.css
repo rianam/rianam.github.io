@@ -76,6 +76,13 @@ article h1 {
         margin-bottom: 15px;
 }   
 
+article a{
+    color:#4A73B9;
+    text-decoration: none;
+
+}
+    
+
 footer{
         text-align:center;
         font-size: 11px;
