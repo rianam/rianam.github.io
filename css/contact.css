@@ -81,6 +81,10 @@ article a{
     text-decoration: none;
 
 }
+
+article a:hover{ 
+    text-decoration: underline;
+}
     
 
 footer{
