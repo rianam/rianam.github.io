@@ -7,8 +7,8 @@
 body {
     font-size: 16px;
     background-color: #E5FFFF;
-    font-family: arial, sans-serif; 
-    line-height: 24px
+    font-family: fantasy, arial, sans-serif; 
+    line-height: 24px;
 }
 
 p {
@@ -30,7 +30,6 @@ header h1 {
     font-weight: 500;
     border: 3px;
     padding: 10px;
-    
 }
 
 header nav {
@@ -39,22 +38,14 @@ header nav {
         text-decoration: none;
         font-weight: 400;
         font-size: 18px;
-        font-family: fantasy, arial, sans-serif;
 }
+
 
 header a {
     color: #4A73B9;
     text-decoration: none;
     padding: 12px;
-    ;
-    
 }
-
-header a:link {
-   
-}
-
-header a:visited {}
 
 header a:hover {
     color: #ffffff;
@@ -62,39 +53,52 @@ header a:hover {
 }
 header a:active {
     text-decoration: underline;
-    
 }
 
-header a:focus {}
         
 article {
     clear: both;
     padding: 0px 10px 0px 10px;
-    text-align: center;
 }
 
 article h1 {
         font-size: 36px; 
-        margin-top: 30px;
+        margin-top: 20px;
         margin-bottom: 15px;
-    font-family: fantasy, arial, sans-serif;
+        text-align:center;
+        font-family: fantasy, arial, sans-serif;
 }   
 
-article a{
-    color:#4A73B9;
-    text-decoration: none;
-
+aside1{
+    border: 10px 10px 10px 10px;
+    border-color: #000000;
+    float:left;
+    margin-left: 0px;
+    margin-top: 5px;
+    width: 50%;
+    align-content:center;
+    padding: 20px 0px 20px 50px;
 }
 
-article a:hover{ 
-    text-decoration: underline;
+aside2{
+    border: 10px 10px 10px 10px;
+    border-color: #000000;
+    float:righ;
+    margin-left: 20px;
+    height: 0.5px;
+    width: 50%;
+    align-content:center;
+    padding: 20px 20px 0px 20px;
 }
-    
+
+img{
+    text-align:center;
+}
 
 footer{
         text-align:center;
         font-size: 11px;
         font-family: arial, sans-serif;
         font-weight: 500;
-}
+}   
     

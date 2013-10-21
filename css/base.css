@@ -19,14 +19,14 @@ header {
     background-color: #000000;
     color: #ffffff; 
     height: 60px;
-    font-family: arial, sans-serif; 
+    font-family: fantasy, arial, sans-serif; 
     
 }
 
 header h1 {
     float: left;
     font-size: 26px;
-    font-family: arial, sans-serif;
+    font-family: fantasy, arial, sans-serif;
     font-weight: 500;
     border: 3px;
     padding: 10px;
@@ -44,15 +44,9 @@ header a {
     color: #4A73B9;
     text-decoration: none;
     padding: 12px;
-    ;
     
 }
 
-header a:link {
-   
-}
-
-header a:visited {}
 
 header a:hover {
     color: #ffffff;
@@ -63,7 +57,7 @@ header a:active {
     
 }
 
-header a:focus {}
+
         
 article {
     clear: both;
@@ -72,9 +66,15 @@ article {
 
 article h1 {
         font-size: 36px; 
-        margin-top: 10px;
+        margin-top: 30px;
         margin-bottom: 15px;
+        font-family: fantasy, arial, sans-serif;
 }   
+
+aside{
+    float: right;
+    
+}
 
 footer{
         text-align:center;
