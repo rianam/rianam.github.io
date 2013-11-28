@@ -7,8 +7,8 @@
 body {
     font-size: 16px;
     background-color: #E5FFFF;
-    font-family: arial, sans-serif; 
-    line-height: 24px
+    font-family: fantasy, arial, sans-serif; 
+    line-height: 24px;
 }
 
 p {
@@ -20,16 +20,18 @@ header {
     color: #ffffff; 
     height: 60px;
     font-family: fantasy, arial, sans-serif; 
+    margin-top: 15px
     
 }
 
 header h1 {
     float: left;
-    font-size: 26px;
-    font-family: fantasy, arial, sans-serif;
+    font-size: 36px;
+    font-family: colonna mt, fantasy, arial, sans-serif;
     font-weight: 500;
     border: 3px;
     padding: 10px;
+    margin-top: 10px;
 }
 
 header nav {
@@ -38,15 +40,15 @@ header nav {
         text-decoration: none;
         font-weight: 400;
         font-size: 18px;
+        margin-top: 21px
 }
+
 
 header a {
     color: #4A73B9;
     text-decoration: none;
     padding: 12px;
-    
 }
-
 
 header a:hover {
     color: #ffffff;
@@ -54,9 +56,7 @@ header a:hover {
 }
 header a:active {
     text-decoration: underline;
-    
 }
-
 
         
 article {
@@ -65,21 +65,144 @@ article {
 }
 
 article h1 {
-        font-size: 36px; 
-        margin-top: 30px;
-        margin-bottom: 15px;
-        font-family: fantasy, arial, sans-serif;
+        font-size: 40px; 
+        margin-top: 20px;
+        margin-bottom:30px;
+        text-align:center;
+        font-family: colonna mt, fantasy, arial, sans-serif;
 }   
 
-aside{
-    float: right;
+
+/*ABOUT ME*/
+
+#about{
+    font-family: garamond, arial, sans-serif; 
+    font-size: 18px; 
+    margin: 0px 10px 0px 10px;  
+}
+
+#about img{
+    float: right; 
+    padding: 0px 10px 20px 10px; 
+}
+
+
+/*MY TRAVELS */
+
+#travels {
+    width=100%;
+}
+
+
+
+.left {
+    width:50%;
+    float:left;
+    padding: 0px 15px 0px 15px; 
+    font-family: garamond, arial, sans-serif;
     
 }
+
+.left h1{
+    text-align: center;
+    font-weight: bold; 
+    margin-bottom: 15px;
+    font-family: fantasy, arial, sans-serif; 
+
+}
+
+
+.right{
+    border-left: 1.5px solid;
+    width:50%;
+    float:right;
+    padding: 0px 15px 0px 15px; 
+    font-family: garamond, arial, sans-serif;
+}
+
+.right h1{
+    text-align: center;
+    font-weight: bold; 
+    margin-bottom: 15px;
+    font-family: fantasy, arial, sans-serif; 
+}
+
+/*MY PHOTOGRAPHY*/
+
+#photos {
+    width=100%;
+}
+
+.one {
+    width:50%;
+    float:left;
+    padding: 0px 15px 0px 15px; 
+    
+}
+
+.one img{
+    border: 1.5px solid; 
+}
+
+.two{
+    width:50%;
+    float:right;
+    padding: 0px 15px 0px 15px; 
+}
+
+.two img{
+    border: 1.5px solid; 
+}
+
+
+/*CONTACT ME*/
+
+#contact {
+    text-decoration: underline;
+    clear: both;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
 
 footer{
         text-align:center;
         font-size: 11px;
         font-family: arial, sans-serif;
         font-weight: 500;
-}
+        clear: both;
+}   
+
+
+/*MOBILE MODE*/
+
+@media screen and (max-width: 700px) {
+    
+    
+    header h1{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    
+    header nav {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        text-decoration: underline;
+    }
+    
+    article h1{
+        text-align: center;
+        width: 100%;
+        clear: left;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding: 5%;
+        font-size: 30px;
+        
+    } 
+    
+}    
     
