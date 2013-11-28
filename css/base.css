@@ -20,7 +20,7 @@ header {
     color: #ffffff; 
     height: 60px;
     font-family: fantasy, arial, sans-serif; 
-    margin-top: 15px
+    margin-top: 15px;
     
 }
 
@@ -40,7 +40,8 @@ header nav {
         text-decoration: none;
         font-weight: 400;
         font-size: 18px;
-        margin-top: 21px
+        margin-top: 21px;
+      
 }
 
 
@@ -67,10 +68,13 @@ article {
 article h1 {
         font-size: 40px; 
         margin-top: 20px;
-        margin-bottom:30px;
+        margin-bottom:20px;
         text-align:center;
         font-family: colonna mt, fantasy, arial, sans-serif;
+        line-height: 30px; 
 }   
+
+
 
 
 /*ABOUT ME*/
@@ -87,10 +91,22 @@ article h1 {
 }
 
 
+
+
+
+
+
 /*MY TRAVELS */
 
 #travels {
     width=100%;
+}
+
+#travels img{
+    border: 1.5px solid;
+     margin: 0 auto; 
+    display: block; 
+    
 }
 
 
@@ -127,32 +143,64 @@ article h1 {
     font-family: fantasy, arial, sans-serif; 
 }
 
+
+
+
 /*MY PHOTOGRAPHY*/
 
-#photos {
-    width=100%;
+.three-columns .column {
+    width:33%; 
+    float: left; 
+    padding: 5px 5px
 }
 
-.one {
-    width:50%;
-    float:left;
-    padding: 0px 15px 0px 15px; 
+.three-columns .column h1{
+       font-size: 40px; 
+        margin-top: 20px;
+        margin-bottom:30px;
+        text-align:center;
+        font-family: colonna mt, fantasy, arial, sans-serif;
+}
+
+.three-columns .column img{
+   margin: 0 auto; 
+    display: block; 
+}
+
+.three-columns .column a img{
+    border: 3px solid #4A73B9; 
+}
+
+.three-columns .column a:hover img{
+    border: 3px solid #ffffff; 
+}
+
+/*PORTRAIT*/
+
+.two-rows{
+    margin: 10px 10px 20px 10px; 
+    text-align: center; 
+}
+
+.two-rows img{
+    border: 1px solid #000000; 
+    margin: 20px
     
 }
 
-.one img{
-    border: 1.5px solid; 
+/*ACTION*/
+
+#action {
+    margin: 10px 10px 20px 10px; 
+    text-align: center; 
 }
 
-.two{
-    width:50%;
-    float:right;
-    padding: 0px 15px 0px 15px; 
+#action img{
+    border: 1px solid #000000; 
+    margin: 20px
+    
 }
 
-.two img{
-    border: 1.5px solid; 
-}
 
 
 /*CONTACT ME*/
@@ -162,6 +210,25 @@ article h1 {
     clear: both;
     padding: 0px 10px 0px 10px;
     text-align: center;
+}
+
+article h2 {
+        border-top: 1px solid #000000; 
+        font-size: 40px; 
+        margin-top: 40px;
+        margin-bottom:10px;
+        text-align:center;
+        font-family: colonna mt, fantasy, arial, sans-serif;
+        line-height: 30px; 
+        padding-top: 30px; 
+}   
+
+
+#follow {
+     text-decoration: underline;
+    clear: both;
+    text-align: center;
+    margin-bottom: 40px; 
 }
 
 
@@ -174,9 +241,15 @@ footer{
 }   
 
 
+
+
+
+
+
+
 /*MOBILE MODE*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     
     
     header h1{
@@ -200,9 +273,13 @@ footer{
         margin-top: 0px;
         margin-bottom: 10px;
         padding: 5%;
-        font-size: 30px;
-        
+        font-size: 30px;  
     } 
+    
+   .three-columns .column {
+        width: 100%
+        
+    }
     
 }    
     
